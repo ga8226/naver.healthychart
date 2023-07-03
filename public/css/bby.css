@@ -22,4 +22,18 @@ ul, h1, h2, h3, p {
   height: 48px;
   background-image: url(../srcimg/sp_common.png);
   background-position: -369px -139px;
+  transform: scale(0.85);
+}
+
+#content {
+  padding-top: 100px;
+}
+#content .event {
+  background-color: lightpink;
+}
+#content .membershop {
+  background-color: lightblue;
+}
+#content .promotion {
+  background-color: lightsalmon;
 }/*# sourceMappingURL=bby.css.map */

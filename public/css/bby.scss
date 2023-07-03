@@ -28,7 +28,20 @@ ul , h1 ,h2 , h3 , p{
                 height: 48px;
                 background-image: url(../srcimg/sp_common.png);
                 background-position: -369px -139px;
+                transform: scale(0.85);
             }
         }
     }
+}
+#content{
+padding-top: 100px;
+.event{
+    background-color:  lightpink ;
+}
+.membershop{
+    background-color: lightblue;
+}
+.promotion{
+    background-color: lightsalmon;
+}
 }

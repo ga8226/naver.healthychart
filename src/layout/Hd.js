@@ -60,7 +60,7 @@
                              hddata.gnb.map(function(v , i){
                                 return(
                                 <>                           
-                                <li className="px-2"><a href={v.href} className="d-block" >{v.title}</a></li>
+                                <li className="px-2"  key={`l_${i}`}><a href={v.href} className="d-block" >{v.title}</a></li>
                                 { hddata.pAction &&
                                    (     i === 1 &&
                                      <li className={`px-2 ${hddata.promotion.cls}`}>
@@ -83,7 +83,7 @@
                         {
                           hddata.util.map(function(v, i){
                           return(
-                            <li className="px-1">
+                            <li className="px-1"  key={`u_${i}`}>
                                 <a href={v.href}>
                                     <span className="visually-hidden">공유하기</span>
                                 </a>
